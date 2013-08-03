@@ -1,0 +1,9 @@
+import sys
+
+endianness = sys.byteorder
+if endianness == 'little':
+	print 'LittleEndian'
+elif endianness == 'big':
+	print 'BigEndian'
+else:
+	print 'Unknown'
