@@ -38,7 +38,10 @@ def filename(problem_name, language)
 		lua: :lua,
 		java: :java,
 		go: :go,
-		golang: :go
+		golang: :go,
+		coffee: :coffee,
+		perl: :pl,
+		pl: :pl,
 	}
 	if language.to_s == 'java'
 		problem_name = 'Main'
